@@ -35,7 +35,7 @@ def update_movie(reservas_id):
     return jsonify({'message': 'Reservas updated successfully'})
 
 def delete_movie(reservas_id):
-    reservas = Reservas.get_by_id(reservas_id)
+    Reservas = Reservas.get_by_id(reservas_id)
     if not Reservas:
         return jsonify({'message': 'Reservas not found'}), 404
     Reservas.delete()

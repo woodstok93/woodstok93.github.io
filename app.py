@@ -2,9 +2,7 @@ from flask import Flask, render_template, request, redirect
 from flask_cors import CORS
 from flask_mysqldb import MySQL
 from flask import Flask
-from flask_cors import CORS
-from app.database  import __init__ 
-from app.views import Reservas
+ 
 
 app = Flask(__name__)
 
