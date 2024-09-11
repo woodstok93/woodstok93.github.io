@@ -556,7 +556,7 @@
         /* seccion R E S P O N S I V E */
         /* *********************/
         
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 600px) {
             .redes {
                 display: none;
             }
