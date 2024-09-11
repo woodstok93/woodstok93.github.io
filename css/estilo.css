@@ -691,4 +691,42 @@
                     width: 40px; /* Tamaño predeterminado para pantallas grandes */
                 }
              }
-        }
+             @media (max-width: 600px) {
+                .social-item img {
+                    width: 30px; /* Tamaño reducido para pantallas móviles */
+                }
+            }
+            
+            /* Pantallas medianas (tabletas) */
+            @media (max-width: 900px) {
+                .social-item img {
+                    width: 35px; /* Tamaño mediano para tabletas */
+                }
+            }
+            
+            /* Pantallas grandes (computadoras de escritorio) */
+            @media (min-width: 901px) {
+                .social-item img {
+                    width: 40px; /* Tamaño predeterminado para pantallas grandes */
+                }
+            }
+            @media (max-width: 600px) {
+                .social-item img {
+                    width: 30px; /* Tamaño reducido para pantallas móviles */
+                }
+            }
+            
+            /* Pantallas medianas (tabletas) */
+            @media (max-width: 900px) {
+                .social-item img {
+                    width: 35px; /* Tamaño mediano para tabletas */
+                }
+            }
+            
+            /* Pantallas grandes (computadoras de escritorio) */
+            @media (min-width: 901px) {
+                .social-item img {
+                    width: 40px; /* Tamaño predeterminado para pantallas grandes */
+                }
+            }
+         }
