@@ -647,20 +647,20 @@
                 margin-bottom: 15px;
             }
             @media (max-width: 600px) {
-                .social-item img {
+                .espacio img {
                     width: 30px; /* Tamaño reducido para pantallas móviles */
                 }
                  
             }
             @media (max-width: 900px) {
-                .social-item img {
+                .espacio img {
                     width: 35px; /* Tamaño mediano para tabletas */
                 }
             }
             
             /* Pantallas grandes (computadoras de escritorio) */
             @media (min-width: 901px) {
-                .social-item img {
+                .espacio img {
                     width: 40px; /* Tamaño predeterminado para pantallas grandes */
                 }
              }
