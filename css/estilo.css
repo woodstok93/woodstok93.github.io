@@ -646,11 +646,14 @@
                 width: 100%;
                 margin-bottom: 15px;
             }
-            #contacto .espacio {
+            @media (max-width: 600px) {
+                .espacio {
+                font-size: 16px; 
                 height:35px;
                 width: 100%;
                 padding: 50px 15px;
                 padding:10px;
                 margin: 0 ;
+            }
             }
         }
