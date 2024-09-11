@@ -112,6 +112,30 @@
             filter: drop-shadow(0 0 14px #bde4f9);
         
           }
+          .social {
+            display: flex;
+            justify-content: center; /* Centra los íconos horizontalmente */
+            flex-wrap: wrap; /* Permite que los íconos se envuelvan en varias líneas si es necesario */
+            gap: 10px; /* Espacio entre íconos */
+            padding: 10px; /* Espacio alrededor del contenedor */
+        }
+        
+        /* Estilos para cada ítem de la lista de íconos */
+        .social-item {
+            margin: 0; /* Elimina el margen para evitar espacio adicional */
+        }
+        
+        /* Estilos para las imágenes de los íconos */
+        .social-item img {
+            width: 40px; /* Tamaño inicial para pantallas grandes */
+            height: auto; /* Mantiene la proporción del ícono */
+            transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+        }
+        
+        /* Efecto hover para los íconos */
+        .social-item img:hover {
+            transform: scale(1.1); /* Aumenta ligeramente el tamaño del ícono al pasar el ratón por encima */
+        }
         
         
         #inicio .contenido .presentacion h2 span {
@@ -532,7 +556,7 @@
         
         #contacto .btn-enviar:hover {
             background-color: #ff5080;
-            color: #fff;
+            color: #f0bb8a;
         }
         /* *********************/
         /* seccion F O O T E R */
@@ -645,6 +669,9 @@
             #contacto .contenedor-form .mitad input {
                 width: 100%;
                 margin-bottom: 15px;
+            }
+            #contacto .contenedor-form .espacio .social.item .social-list img {
+                width: 30px;
             }
             @media (max-width: 600px) {
                 .espacio img {
