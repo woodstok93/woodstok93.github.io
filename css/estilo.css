@@ -556,7 +556,7 @@
         /* seccion R E S P O N S I V E */
         /* *********************/
         
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 800px) {
             .redes {
                 display: none;
             }
@@ -652,5 +652,16 @@
                 }
                  
             }
+            @media (max-width: 900px) {
+                .social-item img {
+                    width: 35px; /* Tamaño mediano para tabletas */
+                }
+            }
             
+            /* Pantallas grandes (computadoras de escritorio) */
+            @media (min-width: 901px) {
+                .social-item img {
+                    width: 40px; /* Tamaño predeterminado para pantallas grandes */
+                }
+             }
         }
